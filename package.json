@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "inquirer": "^8.2.4",
+    "jest": "^29.4.3"
+  },
+  "name": "lib",
+  "version": "1.0.0",
+  "main": "shapes.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js"
+  },
+  "author": "Jack Kelly",
+  "license": "ISC",
+  "description": ""
+}
