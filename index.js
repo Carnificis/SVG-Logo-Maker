@@ -61,7 +61,6 @@ return writeFile("./examples/logo.svg", svg.render())
     function start(){
         inquirer.prompt(questions)
         .then(response => {
-           // console.log(response)
             generateMarkDown("logo.SVG",response)})
 
 }
